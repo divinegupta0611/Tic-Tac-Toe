@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Game.css">
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div>
+        <h1 id="heading1">Tic Tac Toe</h1>
+    </div>
+    <div id="container1">
+        <img src="./images/x.png" alt="cross" id="img1">
+        <img src="./images/o.png" alt="cross" id="img2">
+        <button id="btn0"><img src="./images/x.png" id="img3" alt="turn_img">Turn</button>
+        <button id="btnReplay" onclick="Replay()"><img src="./images/replay.png" id="img4" alt="replay">.</button>
+    </div>
+    <div id="container2">
+        <button id="btn1" onclick="button1()" value=0><img src="" alt="ans" id="btn1_img">.</button>
+        <button id="btn2" onclick="button2()" value=0><img src="" alt="ans" id="btn2_img">.</button>
+        <button id="btn3" onclick="button3()" value=0><img src="" alt="ans" id="btn3_img">.</button>
+        <button id="btn4" onclick="button4()" value=0><img src="" alt="ans" id="btn4_img">.</button>
+        <button id="btn5" onclick="button5()" value=0><img src="" alt="ans" id="btn5_img">.</button>
+        <button id="btn6" onclick="button6()" value=0><img src="" alt="ans" id="btn6_img">.</button>
+        <button id="btn7" onclick="button7()" value=0><img src="" alt="ans" id="btn7_img">.</button>
+        <button id="btn8" onclick="button8()" value=0><img src="" alt="ans" id="btn8_img">.</button>
+        <button id="btn9" onclick="button9()" value=0><img src="" alt="ans" id="btn9_img">.</button>
+    </div>
+    <div id="container3">
+        <div id="p1"><p id="p11">X : 0</p></div>
+        <div id="p2"><p id="p12">Ties : 0</p></div>
+        <div id="p3"><p id="p13">O : 0</p></div>
+    </div>
+    <script src="Game.js"></script>
+</body>
+</html>
